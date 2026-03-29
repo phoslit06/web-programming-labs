@@ -33,4 +33,67 @@ I want to learn more about web technologies, practice front-end development and 
 ### Other Skills
 - Algorithmic thinking  
 - Mathematical problem-solving  
-- Technical research  
+- Technical research
+
+---
+
+## Code Example
+
+```python
+n, s, f = map(int, input().split())
+mas = []
+s -= 1
+f -= 1
+for i in range(n):
+    mas.append([int(i) for i in input().split()])
+u = [0] * n
+v = [999999] * n
+v[s] = 0
+
+for i in range(n):
+    min = 999999
+    ind = 0
+    for j in range(n):
+        if v[j] < min and u[j] == 0:
+            min = v[j]
+            ind = j
+    for j in range(n):
+        if mas[ind][j] > 0:
+            if v[ind] + mas[ind][j] < v[j]:
+                v[j] = v[ind] + mas[ind][j]
+    u[ind] = 1
+if v[f] == 999999:
+    print(-1)
+else:
+    print(v[f])
+
+---
+
+## Experience
+
+### Mathematics Curator – Online School  
+*2024 – Present*
+
+- Assisted students in preparing for the EGE mathematics exam  
+- Explained solutions and checked assignments  
+- Developed structured approaches to learning  
+
+### Computer Club Staff  
+*2023*
+
+- Assisted visitors  
+- Helped with basic technical issues  
+- Improved communication skills  
+
+---
+
+## Education
+
+Belarusian–Russian University  
+Software Engineering Student  
+
+---
+
+## English
+
+Level: Pre-Intermediate (A2–B1)
