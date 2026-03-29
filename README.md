@@ -2,4 +2,4 @@
 
 ## Link to deployed CV
 
-https://phoslit06.github.io/web-programming-labs/cv
+https://phoslit06.github.io/Markdown/cv
