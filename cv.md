@@ -1,9 +1,11 @@
+# Emiliya Barkanova
+
+![avatar](https://fatcatart.com/wp-content/uploads/2016/05/Van_Gogh_-_Sunflowers-cat-w.jpg)
+
 ## Contacts
 
 - Email: emiliya.barkanova@bk.ru  
 - Phone: +79062227083  
-
----
 
 ## About Me
 
@@ -14,8 +16,6 @@ I studied in an art school earlier – that helped me to see details and think a
 Now I work as a mathematics tutor assistant in an online school, helping students prepare for the EGE exam. This work helped me to explain difficult things simply and to be patient when teaching.
 
 I want to learn more about web technologies, practice front-end development and build simple projects to show my progress.
-
----
 
 ## Skills
 
@@ -34,8 +34,6 @@ I want to learn more about web technologies, practice front-end development and 
 - Algorithmic thinking  
 - Mathematical problem-solving  
 - Technical research
-
----
 
 ## Code Example
 
@@ -66,6 +64,7 @@ if v[f] == 999999:
     print(-1)
 else:
     print(v[f])
+```
 
 ---
 
@@ -85,14 +84,10 @@ else:
 - Helped with basic technical issues  
 - Improved communication skills  
 
----
-
 ## Education
 
 Belarusian–Russian University  
 Software Engineering Student  
-
----
 
 ## English
 
