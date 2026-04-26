@@ -744,9 +744,7 @@
   .footer-brand {
     grid-column: 1 / -1;
   }
-}
 
-@media (max-width: 63.9375rem) {
   .safe-umbrella {
     display: none;
   }
@@ -763,9 +761,7 @@
   .safe-card {
     width: min(100%, 34rem);
   }
-}
 
-@media (max-width: 63.9375rem) {
   .footer {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     justify-items: stretch;
@@ -803,9 +799,7 @@
     white-space: normal;
     overflow-wrap: anywhere;
   }
-}
 
-@media (max-width: 63.9375rem) {
   .hero {
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto auto;
@@ -1246,7 +1240,6 @@
     justify-self: start;
     text-align: left;
   }
-
 }
 
 @media (max-width: 80rem) {
@@ -1322,9 +1315,7 @@
     width: min(100%, 24rem) !important;
     max-width: 24rem;
   }
-}
 
-@media (max-width: 63.9375rem) {
   .safe-heading,
   .how-heading {
     justify-items: start;

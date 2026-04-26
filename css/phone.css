@@ -727,9 +727,7 @@
     max-width: calc(100vw - 2rem);
     justify-self: center;
   }
-}
 
-@media (max-width: 47.9375rem) {
   .page,
   .header,
   .hero,
@@ -817,9 +815,7 @@
     width: min(100%, 22rem) !important;
     max-width: 100% !important;
   }
-}
 
-@media (max-width: 47.9375rem) {
   html,
   body {
     width: 100%;
@@ -920,9 +916,7 @@
     white-space: normal;
     overflow-wrap: anywhere;
   }
-}
 
-@media (max-width: 47.9375rem) {
   .header-actions .outline-button {
     display: inline-flex;
     width: clamp(6.875rem, 29vw, 9.5rem);
