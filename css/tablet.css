@@ -5,12 +5,11 @@
   }
 
   .page {
-    width: min(calc(100% - 2rem), 90rem);
+    width: 100%;
     min-height: 0;
     margin: 0 auto;
     display: block;
     overflow: hidden;
-    box-shadow: 0 0.875rem 2.25rem rgba(29, 37, 60, 0.12);
   }
 
   .page img {
@@ -1143,7 +1142,7 @@
 
 @media (min-width: 64rem) and (max-width: 89.9375rem) {
   .safe-section {
-    grid-template-columns: repeat(3, minmax(0, 20rem));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-template-rows: auto auto;
     justify-content: center;
     align-items: start;
@@ -1161,7 +1160,7 @@
   .safe-card {
     grid-row: 2;
     width: 100%;
-    max-width: 20rem;
+    max-width: none;
     justify-self: center;
   }
 }
@@ -1169,7 +1168,7 @@
 @media (max-width: 63.9375rem) {
   .safe-section {
     grid-template-columns: minmax(0, 1fr);
-    justify-items: center;
+    justify-items: stretch;
     row-gap: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -1179,7 +1178,7 @@
   .safe-card {
     grid-column: 1;
     width: 100% !important;
-    max-width: 34rem;
+    max-width: none;
   }
 
   .safe-heading {
@@ -1246,5 +1245,36 @@
     display: block;
     justify-self: start;
     text-align: left;
+  }
+}
+
+@media (max-width: 80rem) {
+  .tools-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: stretch;
+    justify-items: stretch;
+  }
+
+  .tool-card {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media (max-width: 63.9375rem) {
+  .safe-section,
+  .tools-section {
+    justify-items: stretch;
+  }
+
+  .tools-section {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .safe-heading,
+  .safe-card,
+  .tool-card {
+    width: 100% !important;
+    max-width: none;
   }
 }

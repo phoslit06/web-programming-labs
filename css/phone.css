@@ -828,11 +828,10 @@
   }
 
   .page {
-    width: min(calc(100% - 1rem), 44rem);
+    width: 100%;
     min-width: 0;
     margin: 0 auto;
     overflow-x: hidden;
-    box-shadow: 0 0.75rem 1.75rem rgba(29, 37, 60, 0.12);
   }
 
   .header {
@@ -943,10 +942,16 @@
     justify-self: start;
   }
 
+  .safe-heading,
+  .cta-copy {
+    width: 100% !important;
+    max-width: none;
+  }
+
   .safe-card,
   .tool-card {
-    width: min(100%, 20rem) !important;
-    max-width: 20rem;
+    width: 100% !important;
+    max-width: none;
   }
 
   .hero h1,

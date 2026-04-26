@@ -14,7 +14,7 @@
 html,
 body {
   margin: 0;
-  background: #edf3fa;
+  background: var(--page);
   color: var(--ink);
   font-family: "Work Sans", Arial, sans-serif;
 }
