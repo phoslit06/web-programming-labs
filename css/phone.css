@@ -954,6 +954,29 @@
     max-width: none;
   }
 
+  .safe-card-2 p {
+    grid-row: 1;
+    align-self: start;
+    margin-top: 2.15rem;
+  }
+
+  .cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 17rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .cta-copy {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   .hero h1,
   .affordable-copy h2,
   .help-copy h2,

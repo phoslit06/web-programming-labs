@@ -1246,6 +1246,12 @@
     justify-self: start;
     text-align: left;
   }
+
+  .safe-card-2 p {
+    grid-row: 1;
+    align-self: start;
+    margin-top: 2.35rem;
+  }
 }
 
 @media (max-width: 80rem) {
@@ -1276,5 +1282,42 @@
   .tool-card {
     width: 100% !important;
     max-width: none;
+  }
+}
+
+@media (max-width: 89.9375rem) {
+  .cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 18rem;
+    padding: 3.75rem clamp(1rem, 7vw, 4rem);
+  }
+
+  .cta-copy {
+    width: min(100%, 42rem);
+    max-width: 42rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cta-copy h2,
+  .cta-copy p {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .cta-copy p {
+    margin-top: 1rem;
+  }
+
+  .cta-button {
+    margin-top: 2rem;
   }
 }
