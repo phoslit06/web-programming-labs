@@ -1,4 +1,3 @@
-﻿/* Laptop and desktop layout. This is the base Figma-sized layout. */
 .page {
   width: 90rem;
   min-height: 381rem;
@@ -7,6 +6,7 @@
   grid-template-rows: 6.5625rem 48.4375rem 40.3125rem 51.375rem 45.1875rem 46.625rem 51.375rem 38.5rem 23.875rem 4.71094rem 19.03906rem 5rem;
   overflow: hidden;
   background: #ffffff;
+  box-shadow: 0 1rem 2.75rem rgba(29, 37, 60, 0.12);
 }
 
 .site-main,
@@ -19,7 +19,8 @@
   display: grid;
   grid-template-columns: 3.75rem 82.5rem 3.75rem;
   background: #ffffff;
-  box-shadow: 0 0.125rem 0.625rem rgba(29, 37, 60, 0.08);
+  box-shadow: 0 0.1875rem 1rem rgba(29, 37, 60, 0.1);
+  position: relative;
   z-index: 20;
 }
 

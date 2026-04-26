@@ -1,4 +1,3 @@
-﻿/* Phone layout. Rules are grouped by narrow-width breakpoints. */
 @media (max-width: 47.9375rem) {
   .header {
     padding: 1.25rem 1rem;
@@ -796,7 +795,7 @@
   }
 
   .hero-image {
-    width: min(100%, 22rem) !important;
+    width: min(100%, 34rem) !important;
     max-width: 100% !important;
   }
 
@@ -822,11 +821,18 @@
 
 @media (max-width: 47.9375rem) {
   html,
-  body,
-  .page {
+  body {
     width: 100%;
     min-width: 0;
     overflow-x: hidden;
+  }
+
+  .page {
+    width: min(calc(100% - 1rem), 44rem);
+    min-width: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+    box-shadow: 0 0.75rem 1.75rem rgba(29, 37, 60, 0.12);
   }
 
   .header {
@@ -919,7 +925,10 @@
 
 @media (max-width: 47.9375rem) {
   .header-actions .outline-button {
-    display: none;
+    display: inline-flex;
+    width: clamp(6.875rem, 29vw, 9.5rem);
+    min-width: 0;
+    font-size: clamp(0.625rem, 1.8vw, 0.8125rem);
   }
 
   .hero-copy,
@@ -929,8 +938,8 @@
   .safe-heading,
   .how-heading,
   .cta-copy {
-    width: min(100%, 20rem) !important;
-    max-width: 20rem;
+    width: min(100%, 34rem) !important;
+    max-width: 34rem;
     justify-self: start;
   }
 
