@@ -1499,13 +1499,9 @@
   text-underline-offset: 0.25rem;
 }
 
-
-
-
 .subscribe button:hover {
   background: #0f5f73;
 }
-
 
 .socials a:hover {
   opacity: 0.78;
@@ -1517,5 +1513,4 @@ input:focus-visible {
   outline: 0.125rem solid var(--blue);
   outline-offset: 0.1875rem;
 }
-
 
