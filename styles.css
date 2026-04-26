@@ -232,7 +232,7 @@ h3 {
   text-transform: capitalize;
 }
 
-.hero-lede {
+.hero-subtitle {
   grid-row: 6;
   width: 25.6875rem;
   color: var(--muted);
