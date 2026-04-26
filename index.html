@@ -13,10 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Work+Sans:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260425-26" />
+    <link rel="stylesheet" href="styles.css?v=20260425-27" />
   </head>
   <body>
-    <main class="page">
+    <div class="page">
       <header class="header">
         <div class="header-inner">
           <a class="logo header-logo" href="#" aria-label="Bello">
@@ -38,6 +38,7 @@
         </div>
       </header>
 
+      <main class="site-main" id="main-content">
       <section class="hero">
         <img class="hero-image" src="assets/hero.png" alt="" />
         <div class="hero-copy">
@@ -166,7 +167,7 @@
         </div>
       </section>
 
-      <section class="tools-section">
+      <section class="tools-section" aria-label="Learning tools">
         <img class="tool-shot tool-shot-calc" src="assets/tool-card-calc.png" alt="" />
         <img class="tool-shot tool-shot-term" src="assets/tool-card-term.png" alt="" />
         <img class="tool-shot tool-shot-pricing" src="assets/tool-card-pricing-insurance.png" alt="" />
@@ -208,8 +209,10 @@
           </a>
         </div>
       </section>
+      </main>
 
-      <footer class="footer">
+      <footer class="site-footer">
+      <div class="footer">
         <div class="footer-brand">
           <a class="logo footer-logo" href="#" aria-label="Bello">
             <img class="logo-b" src="assets/logo-b.svg" alt="" />
@@ -221,7 +224,7 @@
           <p>Bello is a trading name of Bello Insurance Services LLC. Bello policies are issued by [Insert Underwriter here].</p>
           <form class="subscribe" action="#">
             <label class="visually-hidden" for="email">Email</label>
-            <input id="email" type="email" />
+            <input id="email" name="email" type="email" autocomplete="email" />
             <button type="submit"><span>Go</span><img src="assets/arrow-white.svg" alt="" /></button>
           </form>
           <div class="socials">
@@ -254,12 +257,13 @@
           <a href="#">Privacy</a>
           <a href="#">Licenses</a>
         </nav>
-      </footer>
+      </div>
 
-      <section class="legal-bar">
+      <div class="legal-bar">
         <p>&copy; 2020 Bello insurance Services LLC. All right reserved.</p>
         <a class="outline-button" href="#"><span>Get my price</span></a>
-      </section>
-    </main>
+      </div>
+      </footer>
+    </div>
   </body>
 </html>
