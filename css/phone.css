@@ -1,0 +1,989 @@
+@media (max-width: 47.9375rem) {
+  .header {
+    padding: 1.25rem 1rem;
+  }
+
+  .header-inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .main-nav {
+    justify-content: center;
+    gap: 0.75rem 1.25rem;
+  }
+
+  .hero,
+  .affordable,
+  .help-section,
+  .safe-section,
+  .how-section,
+  .learning-section,
+  .tools-section,
+  .cta-section,
+  .footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hero-copy,
+  .affordable-copy,
+  .help-copy,
+  .learning-copy,
+  .safe-heading,
+  .how-heading,
+  .cta-copy,
+  .footer-brand,
+  .footer-nav,
+  .legal-bar p {
+    width: calc(100vw - 2rem) !important;
+    max-width: calc(100vw - 2rem);
+    min-width: 0;
+  }
+
+  .hero-copy,
+  .affordable-copy,
+  .help-copy,
+  .learning-copy,
+  .safe-heading,
+  .how-heading,
+  .cta-copy,
+  .hero h1,
+  .hero-lede,
+  .section-copy h2,
+  .section-copy p:not(.eyebrow),
+  .safe-heading h2,
+  .safe-heading p:not(.eyebrow),
+  .how-heading h2,
+  .how-heading p:not(.eyebrow),
+  .cta-copy h2,
+  .cta-copy p {
+    width: 100% !important;
+  }
+
+  .hero h1,
+  .section-copy h2,
+  .safe-heading h2,
+  .how-heading h2,
+  .cta-copy h2,
+  .tool-card h3,
+  .tool-card p,
+  .footer-brand > p,
+  .footer-nav a,
+  .legal-bar p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .hero,
+  .affordable,
+  .help-section,
+  .learning-section {
+    gap: 2rem;
+  }
+
+  .hero {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 7vw, 2.25rem);
+    line-height: 1.12;
+  }
+
+  .section-copy h2,
+  .safe-heading h2,
+  .how-heading h2 {
+    font-size: clamp(1.8rem, 6.5vw, 2rem);
+  }
+
+  .hero-lede,
+  .section-copy p:not(.eyebrow),
+  .safe-heading p:not(.eyebrow),
+  .how-heading p:not(.eyebrow),
+  .cta-copy p {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .primary-button {
+    width: 100%;
+    max-width: 13.75rem;
+  }
+
+  .affordable,
+  .help-section,
+  .learning-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .coverage-card {
+    width: 100%;
+  }
+
+  .dot-grid,
+  .help-callout,
+  .learning-callout {
+    display: none;
+  }
+
+  .help-photo,
+  .learning-photo {
+    width: 100%;
+  }
+
+  .safe-section {
+    grid-template-columns: minmax(0, 1fr);
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .safe-umbrella {
+    width: min(80vw, 22rem);
+    margin-top: -5rem;
+  }
+
+  .safe-heading {
+    margin-top: 3rem;
+  }
+
+  .safe-card {
+    grid-column: 1;
+    max-width: 20rem;
+  }
+
+  .how-section {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .how-inner {
+    gap: 2.5rem;
+  }
+
+  .tools-section {
+    grid-template-columns: minmax(0, 16.25rem);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .tool-card {
+    justify-self: center;
+  }
+
+  .cta-section {
+    min-height: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .cta-copy h2 {
+    font-size: clamp(2rem, 10vw, 2.5rem);
+  }
+
+  .footer {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2.25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .footer-brand,
+  .resources,
+  .magazine,
+  .more {
+    grid-column: 1;
+  }
+
+  .subscribe {
+    grid-template-columns: minmax(0, 1fr) 5.25rem;
+    width: 100%;
+  }
+
+  .subscribe input {
+    grid-column: 1 / 3;
+  }
+
+  .subscribe button {
+    grid-column: 2;
+  }
+
+  .legal-bar {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: start;
+    padding: 1.5rem 1rem;
+  }
+
+  .legal-bar p,
+  .legal-bar .outline-button {
+    grid-column: 1;
+  }
+
+  .legal-bar .outline-button {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 22.5rem) {
+  .outline-button {
+    width: 9rem;
+  }
+
+  .header-actions {
+    gap: 0.75rem;
+  }
+
+  .main-nav {
+    font-size: 0.9375rem;
+  }
+
+  .section-copy h2,
+  .safe-heading h2,
+  .how-heading h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .header-inner {
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .header-logo {
+    order: 1;
+  }
+
+  .header-actions {
+    order: 2;
+    width: auto;
+    justify-content: flex-end;
+  }
+
+  .main-nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero,
+  .affordable,
+  .help-section,
+  .safe-section,
+  .how-section,
+  .learning-section,
+  .tools-section,
+  .cta-section,
+  .footer,
+  .legal-bar {
+    text-align: left;
+  }
+
+  .hero,
+  .affordable,
+  .help-section,
+  .learning-section {
+    align-items: start;
+  }
+
+  .hero {
+    gap: 2.25rem;
+  }
+
+  .hero-copy,
+  .affordable-copy,
+  .help-copy,
+  .learning-copy,
+  .safe-heading,
+  .how-heading,
+  .cta-copy {
+    justify-self: stretch;
+  }
+
+  .hero-image,
+  .help-photo,
+  .learning-photo {
+    justify-self: center;
+    width: min(100%, 31rem);
+  }
+
+  .hero-button,
+  .section-copy .text-link,
+  .how-button,
+  .cta-button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .affordable-copy,
+  .help-copy,
+  .learning-copy {
+    order: 0;
+  }
+
+  .coverage-card,
+  .help-photo,
+  .learning-photo {
+    order: 1;
+  }
+
+  .coverage-card {
+    justify-self: stretch;
+    width: 100%;
+    max-width: 31.25rem;
+  }
+
+  .coverage-note {
+    justify-self: start;
+    text-align: left;
+  }
+
+  .safe-section {
+    justify-content: stretch;
+    justify-items: stretch;
+    gap: 1.5rem;
+    padding-top: 3rem;
+  }
+
+  .safe-heading {
+    text-align: left;
+  }
+
+  .safe-card {
+    justify-self: stretch;
+    max-width: none;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    padding: 1.125rem;
+    grid-template-columns: 5.75rem minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 1rem;
+    align-items: center;
+  }
+
+  .safe-card-1,
+  .safe-card-2,
+  .safe-card-3 {
+    justify-items: start;
+    text-align: left;
+  }
+
+  .safe-card-1 .rating-art,
+  .safe-card-2 .experience-art,
+  .safe-card-3 .insurance-art {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    justify-self: center;
+    align-self: center;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .safe-card-1 .rating-art {
+    width: 4.75rem;
+  }
+
+  .safe-card-2 .experience-art {
+    width: 4.25rem;
+  }
+
+  .safe-card-3 .insurance-art {
+    width: 5.25rem;
+  }
+
+  .safe-card h3,
+  .safe-card-1 h3,
+  .safe-card-2 h3,
+  .safe-card-3 h3 {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: start;
+    width: auto;
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.35;
+  }
+
+  .safe-card-1 .rating-copy,
+  .safe-card-1 .rating-copy p,
+  .safe-card-1 .rating-copy a,
+  .safe-card-2 p,
+  .safe-card-3 p {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+    width: auto;
+    margin: 0.35rem 0 0;
+    display: block;
+    text-align: left;
+    font-size: 0.8125rem;
+    line-height: 1.45;
+  }
+
+  .safe-card-1 .rating-copy a {
+    margin-top: 0.15rem;
+    white-space: normal;
+  }
+
+  .how-inner {
+    justify-items: stretch;
+  }
+
+  .how-heading {
+    text-align: left;
+  }
+
+  .how-heading p:not(.eyebrow) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .step,
+  .step-one,
+  .step-two,
+  .step-three {
+    justify-items: start;
+    text-align: left;
+    grid-template-columns: 4rem minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 1rem;
+    align-items: start;
+  }
+
+  .step-dot,
+  .step-two .step-dot,
+  .step-three .step-dot {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    justify-self: center;
+    margin-top: 0.875rem;
+  }
+
+  .step-number,
+  .step-one .step-number,
+  .step-two .step-number,
+  .step-three .step-number {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    justify-self: center;
+  }
+
+  .step h3,
+  .step-one h3,
+  .step-two h3,
+  .step-three h3 {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: start;
+    margin-top: 0.5rem;
+  }
+
+  .step p,
+  .step-three p {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: start;
+    max-width: none;
+  }
+
+  .how-button {
+    justify-self: start;
+  }
+
+  .tools-section {
+    justify-content: stretch;
+    justify-items: stretch;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .tool-card {
+    justify-self: stretch;
+    max-width: none;
+    height: auto;
+    min-height: 5.75rem;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    row-gap: 0.35rem;
+    padding: 1rem 1.125rem;
+  }
+
+  .tool-card h3,
+  .tool-card p,
+  .tool-card a {
+    grid-column: 1;
+    width: auto;
+    margin: 0;
+  }
+
+  .tool-card h3 {
+    grid-row: 1;
+    font-size: 1.375rem;
+    line-height: 1.35;
+  }
+
+  .tool-card p {
+    grid-row: 2;
+  }
+
+  .tool-card a {
+    grid-row: 3;
+    margin-top: 0.2rem;
+  }
+
+  .cta-copy {
+    justify-self: stretch;
+    text-align: center;
+  }
+
+  .cta-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-nav {
+    text-align: left;
+  }
+}
+
+@media (max-width: 22.5rem) {
+  .hero h1,
+  .section-copy h2,
+  .safe-heading h2,
+  .how-heading h2 {
+    font-size: 1.85rem;
+  }
+
+  .header-actions {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .main-nav {
+    justify-content: flex-start;
+  }
+
+  .hero {
+    gap: 1.5rem;
+  }
+
+  .hero-image {
+    grid-row: 1;
+    width: min(100%, 31rem);
+    justify-self: center;
+  }
+
+  .hero-copy {
+    grid-row: 2;
+  }
+
+  .coverage-card {
+    justify-self: center;
+    width: min(100%, 31.25rem);
+  }
+
+  .coverage-note {
+    justify-self: center;
+    text-align: center;
+  }
+
+  .footer {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 1rem;
+    row-gap: 2.25rem;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .resources {
+    grid-column: 1;
+  }
+
+  .magazine {
+    grid-column: 2;
+  }
+
+  .more {
+    grid-column: 3;
+  }
+
+  .footer-nav {
+    width: auto !important;
+    max-width: 100%;
+  }
+
+  .footer-nav h3,
+  .footer-nav a {
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 30rem) {
+  .footer {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .resources,
+  .magazine,
+  .more {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .hero-copy,
+  .affordable-copy,
+  .help-copy,
+  .learning-copy,
+  .safe-heading,
+  .how-heading,
+  .cta-copy,
+  .footer-brand,
+  .footer-nav,
+  .legal-bar p {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .hero,
+  .affordable,
+  .help-section,
+  .safe-section,
+  .how-section,
+  .learning-section,
+  .tools-section,
+  .cta-section,
+  .footer,
+  .legal-bar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 24rem) {
+  .header-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .header-logo,
+  .header-actions,
+  .main-nav {
+    grid-column: 1;
+  }
+
+  .header-logo {
+    grid-row: 1;
+  }
+
+  .header-actions {
+    grid-row: 2;
+    justify-self: start;
+  }
+
+  .main-nav {
+    grid-row: 3;
+  }
+}
+
+@media (max-width: 47.9375rem) {
+  .hero,
+  .affordable,
+  .help-section,
+  .learning-section {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hero-image,
+  .coverage-card,
+  .coverage-card img,
+  .help-photo,
+  .learning-photo {
+    width: 100% !important;
+    max-width: calc(100vw - 2rem) !important;
+    height: auto;
+    justify-self: center;
+    object-fit: contain;
+  }
+
+  .coverage-card {
+    display: grid;
+    place-items: center;
+  }
+
+  .coverage-note {
+    width: 100%;
+    max-width: calc(100vw - 2rem);
+    justify-self: center;
+  }
+
+  .page,
+  .header,
+  .hero,
+  .affordable,
+  .help-section,
+  .safe-section,
+  .how-section,
+  .learning-section,
+  .tools-section,
+  .cta-section,
+  .site-footer,
+  .footer,
+  .legal-bar {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .hero-copy,
+  .affordable-copy,
+  .help-copy,
+  .safe-heading,
+  .how-heading,
+  .learning-copy,
+  .cta-copy {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .hero h1,
+  .affordable-copy h2,
+  .help-copy h2,
+  .safe-heading h2,
+  .how-heading h2,
+  .learning-copy h2,
+  .cta-copy h2 {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .how-inner,
+  .how-heading,
+  .how-heading h2,
+  .how-heading p:not(.eyebrow) {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .affordable-copy h2,
+  .help-copy h2,
+  .safe-heading h2,
+  .how-heading h2,
+  .learning-copy h2,
+  .cta-copy h2 {
+    font-size: clamp(1.75rem, 8vw, 2.25rem);
+    line-height: 1.15;
+  }
+
+  .how-heading h2 {
+    font-size: clamp(1.5rem, 6.5vw, 1.875rem);
+    line-height: 1.2;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .hero-image {
+    width: min(100%, 34rem) !important;
+    max-width: 100% !important;
+  }
+
+  .coverage-card {
+    width: min(100%, 20rem) !important;
+    max-width: 100% !important;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .coverage-card img {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .help-photo,
+  .learning-photo {
+    width: min(100%, 22rem) !important;
+    max-width: 100% !important;
+  }
+
+  html,
+  body {
+    width: 100%;
+    min-width: 0;
+    overflow-x: hidden;
+  }
+
+  .page {
+    width: 100%;
+    min-width: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .header {
+    padding: 1rem;
+  }
+
+  .header-inner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    align-items: center;
+    column-gap: 1rem;
+    row-gap: 0.75rem;
+    text-align: left;
+  }
+
+  .header-logo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .header-actions {
+    grid-column: 2;
+    grid-row: 1;
+    width: auto;
+    min-width: 0;
+    justify-self: end;
+    justify-content: flex-end;
+    gap: 0.375rem;
+  }
+
+  .header-actions .outline-button {
+    width: 6.875rem;
+    min-width: 0;
+    font-size: 0.625rem;
+  }
+
+  .login {
+    font-size: 0.8125rem;
+  }
+
+  .main-nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto;
+  }
+
+  .hero-copy {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .hero-image {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 1.5rem;
+  }
+
+  .hero h1,
+  .affordable-copy h2,
+  .help-copy h2,
+  .safe-heading h2,
+  .learning-copy h2,
+  .cta-copy h2 {
+    width: 100% !important;
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+
+  .hero-lede,
+  .section-copy p:not(.eyebrow),
+  .safe-heading p:not(.eyebrow),
+  .how-heading p:not(.eyebrow),
+  .learning-copy p:not(.eyebrow),
+  .cta-copy p {
+    width: 100% !important;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .header-actions .outline-button {
+    display: inline-flex;
+    width: clamp(6.875rem, 29vw, 9.5rem);
+    min-width: 0;
+    font-size: clamp(0.625rem, 1.8vw, 0.8125rem);
+  }
+
+  .hero-copy,
+  .affordable-copy,
+  .help-copy,
+  .learning-copy,
+  .safe-heading,
+  .how-heading,
+  .cta-copy {
+    width: min(100%, 34rem) !important;
+    max-width: 34rem;
+    justify-self: start;
+  }
+
+  .safe-heading,
+  .cta-copy {
+    width: 100% !important;
+    max-width: none;
+  }
+
+  .safe-card,
+  .tool-card {
+    width: 100% !important;
+    max-width: none;
+  }
+
+  .safe-card-2 p {
+    grid-row: 2;
+    align-self: start;
+    margin-top: 0.125rem;
+    transform: none;
+  }
+
+  .cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 17rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .cta-copy {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .subscribe {
+    width: min(100%, 24rem) !important;
+    max-width: 24rem;
+  }
+
+  .hero h1,
+  .affordable-copy h2,
+  .help-copy h2,
+  .safe-heading h2,
+  .how-heading h2,
+  .learning-copy h2,
+  .cta-copy h2 {
+    font-size: clamp(1.625rem, 7vw, 2rem);
+  }
+}
