@@ -1142,7 +1142,7 @@
 
 @media (min-width: 64rem) and (max-width: 89.9375rem) {
   .safe-section {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 20rem));
     grid-template-rows: auto auto;
     justify-content: center;
     align-items: start;
@@ -1160,7 +1160,7 @@
   .safe-card {
     grid-row: 2;
     width: 100%;
-    max-width: none;
+    max-width: 20rem;
     justify-self: center;
   }
 }
@@ -1247,11 +1247,6 @@
     text-align: left;
   }
 
-  .safe-card-2 p {
-    grid-row: 1;
-    align-self: start;
-    margin-top: 2.35rem;
-  }
 }
 
 @media (max-width: 80rem) {
@@ -1319,5 +1314,38 @@
 
   .cta-button {
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 63.9375rem) {
+  .subscribe {
+    width: min(100%, 24rem) !important;
+    max-width: 24rem;
+  }
+}
+
+@media (max-width: 63.9375rem) {
+  .safe-heading,
+  .how-heading {
+    justify-items: start;
+    text-align: left;
+  }
+
+  .safe-heading .eyebrow,
+  .safe-heading h2,
+  .safe-heading p:not(.eyebrow),
+  .how-heading .eyebrow,
+  .how-heading h2,
+  .how-heading p:not(.eyebrow) {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .safe-card-2 p {
+    grid-row: 2;
+    align-self: start;
+    margin-top: 0.125rem;
+    transform: none;
   }
 }
